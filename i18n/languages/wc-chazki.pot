@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-16 23:26-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: woo-chazki.php:43
+#, php-format
+msgid "<strong>%s/strong> Requiere al menos %s versión %s o superior."
+msgstr ""
+
+#: woo-chazki.php:51
+#, php-format
+msgid "WooCommerce debe estar activo antes de usar <strong>%s</strong>"
+msgstr ""
+
+#: woo-chazki.php:114
+msgid "Ajustes"
+msgstr ""
+
+#: woo-chazki.php:155
+msgid "Tracking Page"
+msgstr ""
+
+#: Helper/WooCommerceTrait.php:439
+msgid ""
+"Helper -> Error obteniendo el tamaño del paquete, producto con malas "
+"dimensiones - ID: "
+msgstr ""
+
+#: Helper/WooCommerceTrait.php:456
+msgid ""
+"Helper -> Error obteniendo productos del carrito, producto con malas "
+"dimensiones - ID: "
+msgstr ""
+
+#: Helper/WooCommerceTrait.php:478
+msgid ""
+"Helper -> Error obteniendo productos de la orden, producto con malas "
+"dimensiones - ID: "
+msgstr ""
+
+#: Orders/Metabox.php:45 Orders/Metabox.php:71
+msgid "El pedido no tiene Chazki como método de envío."
+msgstr ""
+
+#: Orders/Metabox.php:59
+msgid "Código Seguimiento:"
+msgstr ""
+
+#: Orders/Metabox.php:66
+msgid "El pedido aún no fue informado a Chazki."
+msgstr ""
+
+#: Orders/OrderList.php:19
+msgid "Seguimiento Chazki"
+msgstr ""
+
+#: Orders/Processor.php:36 Orders/Processor.php:77
+msgid "No fue posible notificar el pedido a Chazki. Contacte al administrador."
+msgstr ""
+
+#: Orders/Processor.php:44 Orders/Processor.php:86
+#, php-format
+msgid "El pedido fue notificado a Chazki ( %s )."
+msgstr ""
+
+#: Orders/Processor.php:48 Orders/Processor.php:90
+#, php-format
+msgid "No fue posible notificar el pedido a Chazki ( %s )."
+msgstr ""
+
+#: Orders/Processor.php:53
+msgid ""
+"No se envía porque ya se había enviado. Si necesita volver a enviarlo, "
+"realizarlo manualmente."
+msgstr ""
+
+#: Orders/Processor.php:95
+msgid ""
+"No se realiza el envío a Chazki, puesto que no es el método de envío "
+"seleccionado."
+msgstr ""
+
+#: Orders/Processor.php:114
+msgid "Envío Chazki"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:24
+msgid "Seguimiento de Pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:29
+msgid "Buscar"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:44 Orders/Webhooks.php:81
+msgid "El pedido es recién ingresado al sistema"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:45 Orders/Webhooks.php:82
+msgid "Estado previo a que el pedido pase a planeamiento y sea ofertado"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:46 Orders/Webhooks.php:83
+msgid "El pedido es ofrecido para que un Chazki lo acepte"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:47 Orders/Webhooks.php:84
+msgid "El Chazki va camino a recoger el pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:48 Orders/Webhooks.php:85
+msgid "El Chazki llega al punto de recojo del pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:49 Orders/Webhooks.php:86
+msgid "Falla durante el recojo del pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:50 Orders/Webhooks.php:87
+msgid "El Chazki está camino a entregar el pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:51 Orders/Webhooks.php:88
+msgid "Falla ocurrida durante la entrega del pedido"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:52 Orders/Webhooks.php:89
+msgid "El pedido es entregado con éxito"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:53
+msgid "El pedido es reprogramado"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:62
+msgid "No se encontró el código de seguimiento"
+msgstr ""
+
+#: Orders/TrackingShortcode.php:65
+msgid "Uso horario: "
+msgstr ""
+
+#: Orders/Webhooks.php:27
+msgid "- Webhook recibido de Chazki:"
+msgstr ""
+
+#: Orders/Webhooks.php:30
+msgid "WooCommerce Chazki Webhook no válido."
+msgstr ""
+
+#: Orders/Webhooks.php:67
+msgid " (UTC -0)"
+msgstr ""
+
+#: Orders/Webhooks.php:69
+#, php-format
+msgid "La Orden #%s fue actualizada con el estado: %s"
+msgstr ""
+
+#: Settings/Main.php:20 Settings/Section.php:27
+#: ShippingMethod/settings-chazki.php:13 ShippingMethod/settings-chazki.php:16
+#: ShippingMethod/WC_Chazki.php:21
+msgid "Chazki"
+msgstr ""
+
+#: Settings/Section.php:23
+msgid "Deshabilitar procesamiento automático"
+msgstr ""
+
+#: Settings/Section.php:28
+msgid "Configuración del método de envío."
+msgstr ""
+
+#: Settings/Section.php:33
+msgid "Tienda"
+msgstr ""
+
+#: Settings/Section.php:35
+msgid "Campo referido a la tienda. Puedes obtener este dato desde Chazki."
+msgstr ""
+
+#: Settings/Section.php:40
+msgid "Sucursal"
+msgstr ""
+
+#: Settings/Section.php:42
+msgid ""
+"Lugar o Sucursal desde donde se origina el pedido. Puedes obtener este dato "
+"desde Chazki. "
+msgstr ""
+
+#: Settings/Section.php:47
+msgid "Api-Key"
+msgstr ""
+
+#: Settings/Section.php:51
+msgid "Puedes obtener la API Key desde Chazki."
+msgstr ""
+
+#: Settings/Section.php:54
+msgid "Evidencia Física"
+msgstr ""
+
+#: Settings/Section.php:56
+msgid ""
+"Evidencia física que tendrá el empaque y será entregada al cliente final. "
+msgstr ""
+
+#: Settings/Section.php:65
+msgid "País donde opera"
+msgstr ""
+
+#: Settings/Section.php:82
+msgid "Estado a procesar"
+msgstr ""
+
+#: Settings/Section.php:86
+msgid ""
+"Cuando un pedido tiene este estado, se procesa automáticamente con Chazki."
+msgstr ""
+
+#: Settings/Section.php:90
+msgid "Ambiente"
+msgstr ""
+
+#: Settings/Section.php:94
+msgid ""
+"Puedes utilizar el ambiente Sandbox para realizar pruebas. Asegurate de que "
+"la configuración está correcta antes de habilitar Producción."
+msgstr ""
+
+#: Settings/Section.php:101
+msgid "Página de Seguimiento"
+msgstr ""
+
+#: Settings/Section.php:105
+msgid ""
+"Selecciona la página que se utilizará por defecto para mostrar el formulario "
+"de seguimiento."
+msgstr ""
+
+#: Settings/Section.php:113
+msgid "Notificaciones"
+msgstr ""
+
+#: Settings/Section.php:114
+#, php-format
+msgid ""
+"Para recibir notificaciones acerca de tus envíos con Chazki, debes crear un "
+"webhook dentro de tu panel de Chazki, usa esta URL: <strong>%s</strong> con "
+"el método POST."
+msgstr ""
+
+#: ShippingMethod/settings-chazki.php:15
+msgid "Permite a tus clientes recibir sus pedidos con Chazki"
+msgstr ""
+
+#: ShippingMethod/settings-chazki.php:20
+msgid "Cost"
+msgstr ""
+
+#: ShippingMethod/settings-chazki.php:23
+msgid "Introduce un costo fijo por envío."
+msgstr ""
+
+#: ShippingMethod/settings-chazki.php:32
+msgid "Servicio"
+msgstr ""
+
+#: ShippingMethod/settings-chazki.php:35
+msgid ""
+"Dependiendo del tipo de servicio deseado puede ser: Express: El pedido será enviado el mismo día con un tiempo máximo de entrega de 4 hrs. (radio máx. 20 km) 	<br/> Next Day: El pedido será enviado el siguiente día en un horario abierto de 9:00 a 18:00 hrs."
+msgstr ""
+
+#: ShippingMethod/WC_Chazki.php:22
+msgid "Permite a tus clientes recibir sus pedidos con Chazki."
+msgstr ""
